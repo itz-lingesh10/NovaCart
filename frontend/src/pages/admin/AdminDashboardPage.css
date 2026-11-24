@@ -1,0 +1,41 @@
+.admin-dashboard-page h1 {
+  font-size: 1.6rem;
+  color: #1B1B2F;
+  margin-bottom: 0.3rem;
+}
+
+.admin-dashboard-page > p {
+  color: #6B7280;
+  margin-bottom: 1.8rem;
+}
+
+.admin-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.admin-dashboard-card {
+  background: #ffffff;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  padding: 1.4rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.admin-dashboard-card h2 {
+  font-size: 1.05rem;
+  color: #162447;
+  margin-bottom: 0.3rem;
+}
+
+.admin-dashboard-card p {
+  color: #6B7280;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.admin-dashboard-card:hover {
+  border-color: #E94560;
+}

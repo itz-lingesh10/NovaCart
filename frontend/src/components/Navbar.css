@@ -1,0 +1,95 @@
+.novacart-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-bottom: 1px solid var(--border, #E7E5F3);
+  padding: 0.85rem 2rem;
+  gap: 1.5rem;
+}
+
+.navbar-brand-group {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #14142B;
+  text-decoration: none;
+}
+
+.navbar-pill-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #F6F5FB;
+  padding: 0.3rem;
+  border-radius: 999px;
+}
+
+.navbar-pill {
+  color: #4B5563;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.navbar-pill:hover {
+  color: #14142B;
+}
+
+.navbar-pill.active {
+  background: linear-gradient(135deg, #7C3AED, #EC4899);
+  color: #ffffff;
+}
+
+.navbar-user-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4B5563;
+  font-size: 0.9rem;
+}
+
+.navbar-username {
+  font-weight: 500;
+}
+
+.navbar-action-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-admin-link {
+  color: #7C3AED;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  background: #F3ECFE;
+}
+
+.navbar-logout-btn {
+  background: #14142B;
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar-logout-btn:hover {
+  background: #262650;
+}

@@ -1,0 +1,22 @@
+﻿# Dependencies and generated builds
+node_modules/
+build/
+target/
+dist/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/application*.properties
+
+# IDE and operating system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and uploaded files
+*.log
+uploads/

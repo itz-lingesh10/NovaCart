@@ -1,0 +1,15 @@
+﻿spring.application.name=novacart
+
+spring.datasource.url=${DB_URL:jdbc:mysql://localhost:3306/novacart_db}
+spring.datasource.username=${DB_USERNAME:novacart_app}
+spring.datasource.password=${DB_PASSWORD}
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+server.port=8081
+
+app.jwt.secret=${JWT_SECRET}
+app.upload.dir=uploads

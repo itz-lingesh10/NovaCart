@@ -1,0 +1,218 @@
+.admin-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.6rem;
+}
+
+.admin-page-header h1 {
+  font-size: 1.6rem;
+  color: #14142B;
+  margin-bottom: 0.3rem;
+}
+
+.admin-page-header p {
+  color: #6B7280;
+  font-size: 0.9rem;
+}
+
+.admin-primary-btn {
+  padding: 0.65rem 1.3rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.admin-banner-success {
+  background: #DCFCE7;
+  color: #166534;
+  border-radius: var(--radius-md, 10px);
+  padding: 0.9rem 1.2rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1.4rem;
+}
+
+.admin-table-wrap {
+  background: #ffffff;
+  border: 1px solid var(--border, #E7E5F3);
+  border-radius: var(--radius-lg, 16px);
+  overflow: hidden;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  text-align: left;
+  padding: 0.85rem 1.2rem;
+  border-bottom: 1px solid var(--border, #E7E5F3);
+  font-size: 0.9rem;
+}
+
+.admin-table th {
+  background: #F6F5FB;
+  color: #6B7280;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.admin-table tr:last-child td {
+  border-bottom: none;
+}
+
+.admin-table-actions {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.admin-link-btn {
+  background: none;
+  border: none;
+  color: #7C3AED;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0;
+}
+
+.admin-link-btn-danger {
+  color: #F35C6E;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status-pill::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.status-pill.pending {
+  background: #FEF3C7;
+  color: #92400E;
+}
+
+.status-pill.confirmed {
+  background: #EDE9FE;
+  color: #5B21B6;
+}
+
+.status-pill.shipped {
+  background: #E0E7FF;
+  color: #3730A3;
+}
+
+.status-pill.delivered {
+  background: #DCFCE7;
+  color: #166534;
+}
+
+.status-pill.cancelled {
+  background: #FEE2E2;
+  color: #991B1B;
+}
+
+.admin-status-select {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--border, #E7E5F3);
+  border-radius: var(--radius-md, 10px);
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: #ffffff;
+}
+
+.admin-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 16, 36, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.admin-modal {
+  background: #ffffff;
+  border-radius: var(--radius-lg, 16px);
+  padding: 1.8rem;
+  width: 100%;
+  max-width: 440px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.admin-modal h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #14142B;
+}
+
+.admin-modal label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+  margin-top: 0.9rem;
+  margin-bottom: 0.35rem;
+}
+
+.admin-modal input,
+.admin-modal textarea,
+.admin-modal select {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border, #E7E5F3);
+  border-radius: var(--radius-md, 10px);
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.admin-modal input:focus,
+.admin-modal textarea:focus,
+.admin-modal select:focus {
+  outline: none;
+  border-color: #7C3AED;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+}
+
+.admin-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.7rem;
+  margin-top: 1.6rem;
+}
+
+.admin-modal-cancel-btn {
+  background: #F6F5FB;
+  color: #374151;
+  border: none;
+  padding: 0.6rem 1.3rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.admin-modal-submit-btn {
+  background: #14142B;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.3rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
